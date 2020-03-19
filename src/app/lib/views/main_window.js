@@ -39,7 +39,7 @@
         initialize: function () {
             _this = this;
 
-            
+
             _.each(_this.getRegions(), function (element, index) {
 
                 element.on('before:show', function (region, view) {
@@ -165,7 +165,7 @@
                             if (!err || err.errno === '-4075') {
                                 //success
                             } else {
-                                Settings.tmpLocation = path.join(os.tmpDir(), Settings.projectName);
+                                Settings.tmpLocation = path.join(os.tmpdir(), Settings.projectName);
                                 fs.mkdir(Settings.tmpLocation);
                             }
                         });

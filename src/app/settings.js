@@ -51,7 +51,7 @@ Settings.providers = {
     movie: {
         order: 1,
         name: 'Movies',
-        uri: ['vodo', 'archive',
+        uri: ['archive',
           //'stremio?auth={"url":"http://api8.herokuapp.com","key":"423f59935153f2f5d2db0f6c9b812592b61b3737"}&url=http://localhost:9005'
         ]
     },
@@ -148,7 +148,7 @@ Settings.lastTab = '';
 Settings.rememberFilters = false;
 Settings.moviesTabDisable = true;
 Settings.seriesTabDisable = true;
-Settings.animeTabDisable = true;
+Settings.animeTabDisable = false;
 Settings.indieTabDisable = true;
 
 // Quality
@@ -188,7 +188,7 @@ Settings.opensubtitlesPassword = '';
 // Advanced options
 Settings.connectionLimit = 55;
 Settings.streamPort = 0; // 0 = Random
-Settings.tmpLocation = path.join(os.tmpDir(), Settings.projectName);
+Settings.tmpLocation = path.join(os.tmpdir(), Settings.projectName);
 Settings.databaseLocation = path.join(data_path, 'data');
 Settings.deleteTmpOnClose = true;
 Settings.automaticUpdating = false;
