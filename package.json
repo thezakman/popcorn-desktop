@@ -33,7 +33,7 @@
     "position": "center"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.12.1",
+    "font-awesome": "^4.6.3",
     "torrentcollection2": "0.0.3",
     "adm-zip": "0.4.7",
     "airplayer": "2.0.0",
@@ -45,6 +45,7 @@
     "backbone.wreqr": "^1.4.0",
     "bootstrap": "~3.3.7",
     "butter-provider": "0.6.0",
+    "butter-sanitize": "0.1.1",
     "butter-settings-popcorntime.io": "0.0.2",
     "chromecasts": "1.9.0",
     "defer-request": "0.0.2",
