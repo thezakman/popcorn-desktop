@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "font-awesome": "^4.6.3",
-    "torrentcollection2": "0.0.3",
+    "torrentcollection2": "0.0.4",
     "adm-zip": "0.4.7",
     "airplayer": "2.0.0",
     "async": "2.1.2",
